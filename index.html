@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TellMe</title>
+</head>
+<body>
+    <header id="header">
+        <h1 id="header-title"><span class="tell">Tell</span> <span class="me">Me</span></h1>
+        <p class="header-description"><span class="first">What programmer </span><span class="second">are you?</span></p>
+    </header>
+    <main id="main">
+        <h2>You welcome</h2>
+        <form id="main-form">
+            <fieldset class="main-information">
+                <label for="first-name">First Name: <input type="text" id="first-name" name="first-name"></label>
+                <label for="second-name">Last Name: <input type="text" id="second-name" name="second-name"></label>
+                <label for="date-of-birth">Birthday: <input type="date" id="date-of-birth" name="date-of-birth" max="2007-12-31"></label>
+                <label for="specification">What type of programming do you do: <select name="specifiaction" id="specification">
+                    <option value="front-end" selected>Front End</option>
+                    <option value="back-end" selected>Back End</option>
+                    <option value="full-stack">Full Stack</option>
+                    <option value="system-developer">System Developer</option>
+                    <option value="machine-learning">Machine Learning</option>
+                    <option value="ui-ux-designer">UI/UX Designer</option>
+                    <option value="game-dev">Game Developer</option>
+                    <option value="data-dev">Data Developer</option>
+                    <option value="analyst-programmer">Analyst Programmer</option>
+                </select></label>
+            </fieldset>
+            <h2 id="second-h2">The main question... (choose below)</h2>
+            <fieldset class="meme-form">
+                <div class="meme-form-block">
+                    <img class="memes-image" src="https://kidscodecs.com/wp-content/uploads/2020/02/History_TS_ProgrammingMemes_image6.png" alt="" width="200">
+                    <input type="checkbox" hidden name="meme-choose" class="meme-choose" id="first">
+                    <label for="first" class="memes">IT IS ME</label>
+                </div>
+                <div class="meme-form-block">
+                    <img class="memes-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_R9jV_mYgEs_p4nrgCn5kupioYqXv15FfWQ&s" alt="" width="200">
+                    <input type="checkbox" hidden name="meme-choose" class="meme-choose" id="second">
+                    <label for="second" class="memes">IT IS ME</label>
+                </div>
+                <div class="meme-form-block">
+                    <img class="memes-image" src="https://kidscodecs.com/wp-content/uploads/2020/02/History_TS_ProgrammingMemes_image2.png" alt="" width="200">
+                    <input type="checkbox" hidden name="meme-choose" class="meme-choose" id="third">
+                    <label for="third" class="memes">IT IS ME</label>
+                </div>
+                <div class="meme-form-block">
+                    <img class="memes-image" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/efcd56f5-1acb-4e1b-900d-a411f3b31346/dfre15s-61ce6a14-3330-4f96-868b-722ebf347514.jpg/v1/fill/w_450,h_337,q_75,strp/cat_meme_sh_t_post_by_ashkittycat_dfre15s-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MzM3IiwicGF0aCI6IlwvZlwvZWZjZDU2ZjUtMWFjYi00ZTFiLTkwMGQtYTQxMWYzYjMxMzQ2XC9kZnJlMTVzLTYxY2U2YTE0LTMzMzAtNGY5Ni04NjhiLTcyMmViZjM0NzUxNC5qcGciLCJ3aWR0aCI6Ijw9NDUwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.-wRkCLObe7M6UYPrE3g8L1AUSxad7l0XPFyWa5xW5Ow" alt="" width="200">
+                    <input type="checkbox" hidden name="meme-choose" class="meme-choose" id="fourth">
+                    <label for="fourth" class="memes">IT IS ME</label>
+                </div>
+                <div class="meme-form-block">
+                    <img class="memes-image" src="https://pbs.twimg.com/media/EbxGjKeUEAM8PZQ?format=jpg&name=large" alt="" width="200">
+                    <input type="checkbox" hidden name="meme-choose" class="meme-choose" id="five">
+                    <label for="five" class="memes">IT IS ME</label>
+                </div>
+                <div class="meme-form-block">
+                    <img class="memes-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTRMrHfZfXtR42yPR_upc-Oenu9qR0ijjugg&s" alt="" width="200">
+                    <input type="checkbox" hidden name="meme-choose" class="meme-choose" id="six">
+                    <label for="six" class="memes">IT IS ME</label>
+                </div>
+                <div class="meme-form-block">
+                    <img class="memes-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv406aP3_n2Ru7XDhQ-GY36GQuQpP9yfYxlg&s" alt="" width="200">
+                    <input type="checkbox" hidden name="meme-choose" class="meme-choose" id="seven">
+                    <label for="seven" class="memes">IT IS ME</label>
+                </div>
+                <div class="meme-form-block">
+                    <img class="memes-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf1pDB8GEvVrKeJVsD_gH1fD6mwsXmsY2LeQ&s" alt="" width="200">
+                    <input type="checkbox" hidden name="meme-choose" class="meme-choose" id="eight">
+                    <label for="eight" class="memes">IT IS ME</label>
+                </div>
+            </fieldset>
+            <button type="submit">SUBMIT</button>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+body {
+    font-family: 'Jersey 10';
+    background-color: #303841;
+    margin: 0;
+    min-width: 400px;
+    
+    
+}
+
+#header {
+    height: 100vh;
+    
+    display: flex;
+    justify-content: center;
+    
+    flex-flow: column wrap;
+    align-items: center;
+    
+    
+   
+}
+
+#header-title {
+    margin: 0;
+    font-size: 120px;
+    
+    font-weight: normal
+}
+
+.tell, .second {
+    color: #EEEEEE;
+}
+
+#main {
+    width: 90%;
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+.me, .first {
+    color: #FF5722;
+}
+
+.header-description {
+    margin: 0px;
+    font-size: 30px;   
+}
+
+#main h2 {
+    text-align: center;
+    font-size: 50px;
+    color: #EEE;
+    font-weight: normal;
+    margin: 0;
+}
+
+#main-form {
+ 
+    width: 80%;
+    background-color: #FF5722;
+    margin-inline: auto;
+    font-size: 35px;
+    text-align: center;
+}
+
+.main-information label {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: auto;
+    width: 80%;
+    box-sizing: border-box;
+    padding-inline: 10%;
+    flex-flow: row wrap;
+    
+}
+
+#main-form input {
+    
+    align-self: center;
+    height: 20px;
+    font-family: 'Jersey 10';
+    width: 40%;
+    font-size: 30px;
+    min-width: 140px;
+}
+
+input[type='date'] {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 40%;
+    margin-left: 10px;
+    
+}
+
+label[for='specification'] {
+    
+    margin-top: 20px;
+    text-align: left;
+    width: 80%;
+}
+
+select {
+    width: 40%;
+    min-width: 140px;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 20px;
+    
+}
+
+fieldset {
+    border: none;
+    
+
+}
+
+.meme-form-block {
+    width: 300px;
+    height: 100%; 
+    background-color: #272727;
+}
+
+.memes-image {
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    
+}
+
+.meme-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.memes {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 100%;
+    background-color: #272727;
+    margin-top: 2px;
+    border: 2px solid #EEEEEE;
+    color: #FF5722;
+}
+
+.memes::before {
+    content: '☐ ';
+    font-size: 25px;
+}
+
+.meme-choose:checked+.memes {
+    color: #14A76C;
+    background-color: #747474;
+    
+}
+
+.meme-choose:checked+.memes::before {
+    content: '☑ ';
+    font-size: 25px;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    font-size: 35px;
+    letter-spacing: 0.5em;
+    color:#FF5722;
+    font-family: 'Jersey 10';
+}
